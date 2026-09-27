@@ -227,6 +227,7 @@
       // 异步加载云端快照后再刷新"近期成交情况"和概览（全口径卡片依赖首页权威值）
       return loadCloudData(project.code);
     }).then(function(){
+      renderDetailMeta();
       renderOverview();
       renderDaily();
       // 云数据加载完成后重新渲染楼栋网格，叠加官网已售出房源的成交状态
