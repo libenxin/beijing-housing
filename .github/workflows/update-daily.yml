@@ -30,6 +30,12 @@ jobs:
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: python tools/update_today_delta.py
 
+      - name: Export static JSON for frontend
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: python tools/export_static_data.py
+
       - name: Commit & Push if data files changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

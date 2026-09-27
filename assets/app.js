@@ -669,6 +669,65 @@
     }).join('');
   }
 
+  // ========== 静态 JSON 数据（GitHub Pages 本地，手机也能访问） ==========
+  var staticDataCache = null;
+  var staticDataLoading = null;
+
+  function loadStaticJson(){
+    if (staticDataCache) return Promise.resolve(staticDataCache);
+    if (staticDataLoading) return staticDataLoading;
+    staticDataLoading = fetch('data/latest-data.json?v=' + Date.now(), { cache: 'no-cache' })
+      .then(function(res){
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
+      .then(function(data){
+        staticDataCache = data;
+        return data;
+      })
+      .catch(function(err){
+        staticDataCache = null;
+        staticDataLoading = null;
+        throw err;
+      });
+    return staticDataLoading;
+  }
+
+  function getStaticProjectData(projectCode){
+    if (!staticDataCache || !staticDataCache.projects) return null;
+    return staticDataCache.projects[projectCode] || null;
+  }
+
+  function staticToSnapshots(projData){
+    // 将静态 JSON 数据转换为与 Supabase 相同格式的 snapshots 数组
+    if (!projData || !projData.daily_history || !projData.houses_by_date) return [];
+    var houseMap = projData.houses_by_date;
+    return projData.daily_history.map(function(d){
+      var rows = houseMap[d.snapshot_date] || [];
+      var signedHouses = rows.filter(function(r){ return !!signedLike[r.status]; }).map(function(r){
+        return {
+          key: r.house_key,
+          building: r.building || '',
+          houseNo: r.house_no || r.house_key,
+          area: Number(r.building_area) || 0,
+          unitPrice: Number(r.unit_price) || 0,
+          totalPrice: Number(r.total_price) || (r.building_area && r.unit_price ? Number(r.building_area) * Number(r.unit_price) : 0),
+          status: r.status
+        };
+      });
+      return {
+        savedAt: d.snapshot_date,
+        snapshotDate: d.snapshot_date,
+        overview: {
+          signedCount: Number(d.signed_count) || 0,
+          signedArea: Number(d.signed_area) || 0,
+          avgPrice: Number(d.avg_price) || 0
+        },
+        signedHouses: signedHouses
+      };
+    });
+  }
+
   // ========== Supabase 云端数据（多项目） ==========
   function getSupabaseConfig(){
     var cfg = window.SUPABASE_CONFIG || {};
@@ -725,58 +784,104 @@
   }
 
   function loadAllProjectsCloudData(){
-    var cfg = getSupabaseConfig();
-    if(!hasSupabaseConfig(cfg)){
-      return Promise.resolve(null);
-    }
-    // 取所有项目最新一条 daily 快照
-    var path = 'daily_project_snapshots?select=project_code,snapshot_date,signed_count,signed_area,avg_price&order=snapshot_date.desc';
-    return supabaseFetch(cfg, path)
-      .then(function(rows){
-        if(!rows || !rows.length) return null;
-        // 每个项目只保留最新一条
-        var latest = {};
-        rows.forEach(function(r){
-          var code = r.project_code;
-          if(!latest[code]) latest[code] = r;
-        });
-        // 用云端数据更新 PROJECTS_INDEX（signed_count = 纯已签约）
-        var projects = window.PROJECTS_INDEX || [];
-        projects.forEach(function(p){
-          var d = latest[p.code];
-          if(!d) return;
-          p.cloudSignedCount = Number(d.signed_count) || 0;
-          p.avgPrice = Number(d.avg_price) || 0;
-          p.cloudSnapshotDate = d.snapshot_date;
-        });
-        return latest;
-      })
-      .catch(function(err){
-        console.warn('[首页] 云端数据加载失败，使用本地静态数据:', err.message);
+    // 优先从本地静态 JSON 加载（GitHub Pages 同域名，手机也能访问）
+    return loadStaticJson()
+      .then(function(data){
+        if (data && data.projects) {
+          var latest = {};
+          var projects = window.PROJECTS_INDEX || [];
+          projects.forEach(function(p){
+            var projData = data.projects[p.code];
+            if (projData && projData.latest) {
+              p.cloudSignedCount = Number(projData.latest.signed_count) || 0;
+              p.avgPrice = Number(projData.latest.avg_price) || 0;
+              p.cloudSnapshotDate = projData.latest.snapshot_date;
+              latest[p.code] = {
+                project_code: p.code,
+                snapshot_date: projData.latest.snapshot_date,
+                signed_count: projData.latest.signed_count,
+                signed_area: projData.latest.signed_area,
+                avg_price: projData.latest.avg_price
+              };
+            }
+          });
+          return latest;
+        }
         return null;
+      })
+      .catch(function(){
+        // 静态 JSON 加载失败，回退到 Supabase
+        var cfg = getSupabaseConfig();
+        if(!hasSupabaseConfig(cfg)) return null;
+        var path = 'daily_project_snapshots?select=project_code,snapshot_date,signed_count,signed_area,avg_price&order=snapshot_date.desc';
+        return supabaseFetch(cfg, path)
+          .then(function(rows){
+            if(!rows || !rows.length) return null;
+            var latest = {};
+            rows.forEach(function(r){
+              var code = r.project_code;
+              if(!latest[code]) latest[code] = r;
+            });
+            var projects = window.PROJECTS_INDEX || [];
+            projects.forEach(function(p){
+              var d = latest[p.code];
+              if(!d) return;
+              p.cloudSignedCount = Number(d.signed_count) || 0;
+              p.avgPrice = Number(d.avg_price) || 0;
+              p.cloudSnapshotDate = d.snapshot_date;
+            });
+            return latest;
+          })
+          .catch(function(err){
+            console.warn('[首页] 云端数据加载失败，使用本地静态数据:', err.message);
+            return null;
+          });
       });
   }
 
   function loadCloudData(projectCode){
+    state.cloudState.configured = true;
+    // 优先从本地静态 JSON 加载
+    return loadStaticJson()
+      .then(function(data){
+        var projData = data && data.projects ? data.projects[projectCode] : null;
+        if (projData && projData.daily_history && projData.daily_history.length >= 1) {
+          var snapshots = staticToSnapshots(projData);
+          if (snapshots.length > 0) {
+            state.cloudState.loaded = true;
+            state.cloudState.message = '已读取云端快照：' + snapshots[snapshots.length-1].snapshotDate + '，共 ' + snapshots.length + ' 天数据。';
+            state.cloudState.snapshots = snapshots;
+            state.cloudState.current = snapshots[snapshots.length - 1] || null;
+            state.cloudState.previous = snapshots[snapshots.length - 2] || null;
+            return state.cloudState;
+          }
+        }
+        // 静态 JSON 里没有这个项目数据，回退到 Supabase
+        return loadCloudDataFromSupabase(projectCode);
+      })
+      .catch(function(){
+        // 静态 JSON 加载失败，回退到 Supabase
+        return loadCloudDataFromSupabase(projectCode);
+      });
+  }
+
+  function loadCloudDataFromSupabase(projectCode){
     var cfg = getSupabaseConfig();
     state.cloudState.configured = hasSupabaseConfig(cfg);
     if(!state.cloudState.configured){
-      state.cloudState.message = 'Supabase 尚未配置，当前仅展示内置静态数据。';
+      state.cloudState.message = '数据尚未配置，当前仅展示内置静态数据。';
       state.cloudState.current = snapshotFromCurrent();
       return Promise.resolve(state.cloudState);
     }
     var projectFilter = 'project_code=eq.' + encodeURIComponent(projectCode);
-    // 读取最近 14 天快照
     return supabaseFetch(cfg, 'daily_project_snapshots?select=*&' + projectFilter + '&order=snapshot_date.desc&limit=14')
       .then(function(days){
         if(!days || !days.length){
-          state.cloudState.message = 'Supabase 已连接，但还没有该项目的每日快照数据。';
+          state.cloudState.message = '已连接，但还没有该项目的每日快照数据。';
           state.cloudState.current = snapshotFromCurrent();
           return state.cloudState;
         }
-        // 按日期升序
         days = days.slice().sort(function(a,b){ return a.snapshot_date.localeCompare(b.snapshot_date); });
-        // 读取每一天的房源状态快照
         var promises = days.map(function(d){
           var path = 'house_status_snapshots?select=*&' + projectFilter + '&snapshot_date=eq.' + encodeURIComponent(d.snapshot_date) + '&limit=2000';
           return supabaseFetch(cfg, path).then(function(rows){
@@ -786,8 +891,7 @@
         return Promise.all(promises).then(function(dayDataList){
           state.cloudState.loaded = true;
           var latest = dayDataList[dayDataList.length - 1];
-          state.cloudState.message = '已读取 Supabase 云端快照：' + latest.day.snapshot_date + '，共 ' + dayDataList.length + ' 天数据。';
-          // 构建所有每日 snapshot 列表（按日期升序）
+          state.cloudState.message = '已读取云端快照：' + latest.day.snapshot_date + '，共 ' + dayDataList.length + ' 天数据。';
           state.cloudState.snapshots = dayDataList.map(function(item){
             return buildSnapshot(item.day, item.rows);
           });
@@ -796,7 +900,7 @@
           return state.cloudState;
         });
       }).catch(function(err){
-        state.cloudState.message = 'Supabase 读取失败，当前回退展示内置静态数据。错误信息：' + err.message;
+        state.cloudState.message = '数据读取失败，当前回退展示内置静态数据。错误信息：' + err.message;
         state.cloudState.current = snapshotFromCurrent();
         return state.cloudState;
       });
