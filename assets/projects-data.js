@@ -195,7 +195,7 @@ window.PROJECTS_INDEX = [
   {
     code: 'xiqu_jiayuan',
     name: '熙区嘉园',
-    marketingName: '京投发展·北熙区',
+    marketingName: '森屿文华',
     district: '朝阳区',
     location: '五六环之间',
     permitNo: '京房售证字(2026)34号',
