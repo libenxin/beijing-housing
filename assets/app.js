@@ -418,7 +418,7 @@
     cur.signedHouses.forEach(function(h){
       if (!prevMap.has(h.key)) { newSold.push(h); return; }
       var p = prevMap.get(h.key);
-      if (h.status === '已签约' && p.status !== '已签约') newSold.push(h);
+      if ((h.status === '已签约' || h.status === '网上联机备案') && !(p.status === '已签约' || p.status === '网上联机备案')) newSold.push(h);
     });
     var returned = prev.signedHouses.filter(function(h){ return !curMap.has(h.key); });
 

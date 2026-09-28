@@ -330,7 +330,7 @@ def main():
             print(f"    {b['name']}: 楼盘表抓取失败, 跳过")
             buildings_data.append({**b, "houses": []})
             continue
-        time.sleep(random.uniform(0.4, 0.8))
+        time.sleep(random.uniform(0.1, 0.3))
         houses = parse_floorplan(floor_html)
         sc = {}
         for h in houses:
@@ -352,7 +352,7 @@ def main():
                 h["layout"] = detail["layout"]
                 h["totalPrice"] = int(h["buildingArea"] * h["unitPrice"])
                 h["source"] = "official"
-            time.sleep(random.uniform(0.8, 1.4))
+            time.sleep(random.uniform(0.2, 0.4))
             if (j + 1) % 20 == 0:
                 print(f"      进度: {j+1}/{len(details_to_fetch)}")
         buildings_data.append({**b, "houses": houses})
