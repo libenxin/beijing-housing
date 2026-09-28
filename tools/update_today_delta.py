@@ -83,22 +83,22 @@ def fetch_once(url, referer=False):
         return resp.read().decode("utf-8", errors="replace")
 
 
-def fetch_retry(url, retries=8, label="", min_len=20000, require_marker=None):
+def fetch_retry(url, retries=5, label="", min_len=20000, require_marker=None):
     """交替带/不带 Referer 抓取；内容需过长度下限并可选标记（识别限流页 11912B/0 houseId）"""
     for i in range(retries):
         try:
             html = fetch_once(url, referer=(i % 2 == 1))
         except Exception as e:
             print(f"    [{label}重试 {i+1}] 异常: {e}")
-            time.sleep(1 + i)
+            time.sleep(0.5 + i * 0.5)
             continue
         if len(html) < min_len:
             print(f"    [{label}重试 {i+1}] 内容过短({len(html)}B), 疑似限流")
-            time.sleep(1 + i)
+            time.sleep(0.5 + i * 0.5)
             continue
         if require_marker and require_marker not in html:
             print(f"    [{label}重试 {i+1}] 缺标记 {require_marker}({len(html)}B), 疑似限流")
-            time.sleep(1 + i)
+            time.sleep(0.5 + i * 0.5)
             continue
         return html
     return None
@@ -213,7 +213,7 @@ def parse_buildings(html):
     return buildings
 
 
-def get_building_list(pid, retries=8):
+def get_building_list(pid, retries=5):
     """抓楼栋列表并解析，解析为 0 栋视为限流页，重试"""
     from bs4 import BeautifulSoup
     url = f"{BASE}/eportal/ui?pageId=411612&systemId=2&srcId=1&id={pid}&rowcount=30"
@@ -226,7 +226,7 @@ def get_building_list(pid, retries=8):
         if buildings:
             return buildings
         print(f"    [楼栋列表 {i+1}] 解析 0 栋, 疑似限流, 重试")
-        time.sleep(3 + i * 2)
+        time.sleep(1 + i)
     return None
 
 
@@ -266,7 +266,7 @@ def run_project(p):
     for b in crawlable:
         url = f"{BASE}/eportal/ui?pageId=320833&systemId=2&categoryId=1&salePermitId={pid}&buildingId={b['buildingId']}"
         divs = None
-        for attempt in range(6):
+        for attempt in range(4):
             html = fetch_retry(url, retries=1, label=f"{b['name']}", min_len=20000)
             if html is None:
                 time.sleep(1 + attempt)
