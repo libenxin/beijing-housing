@@ -421,7 +421,28 @@ window.PROJECTS_INDEX = [
     fullSignedCount: 0,
     avgPrice: 0,
     dataFile: 'assets/manmao_wenyuan-data.js',
-    hasFullData: false
+    hasFullData: true
+  },
+  {
+    code: 'shuipan_fanglin',
+    name: '水畔芳邻嘉园',
+    marketingName: '星耀未来',
+    district: '昌平区',
+    location: '朱辛庄',
+    permitNo: '京房售证字(2025)30号',
+    permitDate: '2025-04-02',
+    developer: '北京越昌房地产开发有限公司',
+    address: '昌平区小沙河村',
+    buildingCount: 16,
+    houseCount: 930,
+    signedCount: 0,
+    reservedCount: 0,
+    filedCount: 0,
+    sellThroughCount: 0,
+    fullSignedCount: 0,
+    avgPrice: 0,
+    dataFile: 'assets/shuipan_fanglin-data.js',
+    hasFullData: true
   }
 ];
 

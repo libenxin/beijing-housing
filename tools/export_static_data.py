@@ -74,7 +74,7 @@ def export_latest():
                 rows = supabase_get(
                     "house_status_snapshots",
                     {
-                        "select": "house_key,building,house_no,building_area,unit_price,total_price,status",
+                        "select": "house_key,building,unit,room,house_no,building_area,unit_price,total_price,status",
                         "project_code": f"eq.{code}",
                         "snapshot_date": f"eq.{date}",
                         "status": "in.(已签约,已预订,网上联机备案)",
