@@ -401,6 +401,27 @@ window.PROJECTS_INDEX = [
     avgPrice: 57962.73,
     dataFile: 'assets/jingxu_jiayuan-data.js',
     hasFullData: true
+  },
+  {
+    code: 'manmao_wenyuan',
+    name: '满茂文苑',
+    marketingName: '金茂满昱',
+    district: '朝阳区',
+    location: '东坝',
+    permitNo: '京房售证字(2026)63号',
+    permitDate: '2026-08-01',
+    developer: '北京东茂置业有限公司',
+    address: '朝阳区东坝乡单店区域平房区城中村改造项目1105-01地块',
+    buildingCount: 7,
+    houseCount: 317,
+    signedCount: 0,
+    reservedCount: 0,
+    filedCount: 0,
+    sellThroughCount: 0,
+    fullSignedCount: 0,
+    avgPrice: 0,
+    dataFile: 'assets/manmao_wenyuan-data.js',
+    hasFullData: false
   }
 ];
 

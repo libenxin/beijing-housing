@@ -71,6 +71,7 @@ PROJECTS = [
     {"code": "yusong_jiayuan", "name": "隅颂佳苑", "pid": "8028609"},
     {"code": "shanglin_yunsong", "name": "尚霖云颂佳苑", "pid": "8264052"},
     {"code": "jingxu_jiayuan", "name": "璟序家园", "pid": "8272818"},
+    {"code": "manmao_wenyuan", "name": "满茂文苑", "pid": "8248005"},
 ]
 
 
