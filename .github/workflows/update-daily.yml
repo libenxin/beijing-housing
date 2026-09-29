@@ -2,8 +2,8 @@ name: Daily Data Update
 
 on:
   schedule:
-    # 每天北京时间 08:00 自动运行（UTC 0:00）
-    - cron: '0 0 * * *'
+    # 每天北京时间 08:15 自动运行（UTC 0:15，避开整点高峰）
+    - cron: '15 0 * * *'
   # 支持手动触发
   workflow_dispatch:
 
@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -40,6 +42,21 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          git checkout -B "$GITHUB_REF_NAME"
           git add -A
-          git diff --cached --quiet || git commit -m "chore: daily data update $(date +%Y-%m-%d)"
-          git push
+          if git diff --cached --quiet; then
+            echo "no data changes, skip push"
+            exit 0
+          fi
+          git commit -m "chore: daily data update $(date +%Y-%m-%d)"
+          for i in 1 2 3 4 5; do
+            if git push origin "$GITHUB_REF_NAME"; then
+              echo "push succeeded"
+              exit 0
+            fi
+            echo "push rejected (attempt $i), rebasing onto origin/$GITHUB_REF_NAME"
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            sleep 5
+          done
+          echo "push failed after 5 attempts"
+          exit 1
