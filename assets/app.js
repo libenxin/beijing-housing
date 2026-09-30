@@ -416,11 +416,14 @@
     // 因为首页权威 signedCount 只统计"已签约"，这类升级会使权威 +1 而 house 差集为 0
     var newSold = [];
     cur.signedHouses.forEach(function(h){
+      // 只统计已签约/网上联机备案（新增+升级），新预订不计入，保持与权威套数口径一致
+      if (h.status !== '已签约' && h.status !== '网上联机备案') return;
       if (!prevMap.has(h.key)) { newSold.push(h); return; }
       var p = prevMap.get(h.key);
-      if ((h.status === '已签约' || h.status === '网上联机备案') && !(p.status === '已签约' || p.status === '网上联机备案')) newSold.push(h);
+      if (p.status !== '已签约' && p.status !== '网上联机备案') newSold.push(h);
     });
-    var returned = prev.signedHouses.filter(function(h){ return !curMap.has(h.key); });
+    // 退房房源：只统计已签约/备案状态的消失；已预订撤销不计入（从未算过成交），与成交口径对称
+    var returned = prev.signedHouses.filter(function(h){ return !curMap.has(h.key) && (h.status === '已签约' || h.status === '网上联机备案'); });
 
     // 成交套数/面积/均价：用 daily_project_snapshots 首页权威数据，按加权平均计算新增成交均价
     var prevSigned = Number(prev.overview.signedCount) || 0;
