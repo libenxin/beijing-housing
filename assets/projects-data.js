@@ -443,6 +443,27 @@ window.PROJECTS_INDEX = [
     avgPrice: 0,
     dataFile: 'assets/shuipan_fanglin-data.js',
     hasFullData: true
+  },
+  {
+    code: 'jiatang_yayuan',
+    name: '嘉棠雅苑',
+    marketingName: '嘉棠雅序',
+    district: '丰台区',
+    location: '四五环之间',
+    permitNo: '京房售证字(2026)44号',
+    permitDate: '2026-05-27',
+    developer: '北京丰合嘉汇置业有限公司',
+    address: '丰台区花乡中部组团城中村改造项目B区FT00-2405-0001地块',
+    buildingCount: 11,
+    houseCount: 545,
+    signedCount: 39,
+    reservedCount: 7,
+    filedCount: 373,
+    sellThroughCount: 419,
+    fullSignedCount: 412,
+    avgPrice: 69144.19,
+    dataFile: 'assets/jiatang_yayuan-data.js',
+    hasFullData: true
   }
 ];
 
