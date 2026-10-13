@@ -464,6 +464,27 @@ window.PROJECTS_INDEX = [
     avgPrice: 69144.19,
     dataFile: 'assets/jiatang_yayuan-data.js',
     hasFullData: true
+  },
+  {
+    code: 'xingxun_jiayuan',
+    name: '星洵家园',
+    marketingName: '国誉星城',
+    district: '昌平区',
+    location: '五六环之间',
+    permitNo: '京房售证字(2025)114号',
+    permitDate: '2025-09-27',
+    developer: '北京越昌贝城置业有限公司',
+    address: '昌平区中关村生命科学园三期（CP01-0601-0077地块）',
+    buildingCount: 7,
+    houseCount: 384,
+    signedCount: 0,
+    reservedCount: 61,
+    filedCount: 188,
+    sellThroughCount: 249,
+    fullSignedCount: 188,
+    avgPrice: 52399.62,
+    dataFile: 'assets/xingxun_jiayuan-data.js',
+    hasFullData: true
   }
 ];
 

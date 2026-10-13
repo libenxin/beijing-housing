@@ -19,7 +19,7 @@ SUPABASE_URL = os.environ.get("SUPABASE_URL") or "https://emlyfidyvqgmuayhxpee.s
 SUPABASE_KEY = os.environ.get("SUPABASE_ANON_KEY") or os.environ.get("SUPABASE_KEY") or "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVtbHlmaWR5dnFnbXVheWh4cGVlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODkxMjgyNjgsImV4cCI6MjEwNDcwNDI2OH0.eP1g47fw6y9ne0c_7h8PLYhKuIFMDPQQexT2c9b1ufo"
 
 BASE = SUPABASE_URL.rstrip("/") + "/rest/v1"
-DAYS = 7  # 只导出最近 N 天，控制文件大小
+DAYS = 14  # 只导出最近 N 天，控制文件大小
 
 
 def log(msg):
