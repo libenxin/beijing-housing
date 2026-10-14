@@ -75,6 +75,8 @@ PROJECTS = [
     {"code": "shuipan_fanglin", "name": "水畔芳邻嘉园", "pid": "8017587"},
     {"code": "jiatang_yayuan", "name": "嘉棠雅苑", "pid": "8211283"},
     {"code": "xingxun_jiayuan", "name": "星洵家园", "pid": "8106368"},
+    {"code": "yixu_jiayuan_1", "name": "亦序佳苑-1", "pid": "8038353"},
+    {"code": "yixu_jiayuan_2", "name": "亦序佳苑-2", "pid": "8087751"},
 ]
 
 

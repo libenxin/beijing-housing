@@ -485,6 +485,48 @@ window.PROJECTS_INDEX = [
     avgPrice: 52399.62,
     dataFile: 'assets/xingxun_jiayuan-data.js',
     hasFullData: true
+  },
+  {
+    code: 'yixu_jiayuan_1',
+    name: '亦序佳苑-1',
+    marketingName: '招商序',
+    district: '开发区',
+    location: '五六环之间',
+    permitNo: '京房售证字(2025)开2号',
+    permitDate: '2025-05-12',
+    developer: '北京招晨房地产开发有限公司',
+    address: '开发区亦庄新城0202街区YZ00-0202-X24R2地块R2二类居住用地',
+    buildingCount: 7,
+    houseCount: 379,
+    signedCount: 0,
+    reservedCount: 7,
+    filedCount: 284,
+    sellThroughCount: 291,
+    fullSignedCount: 291,
+    avgPrice: 67754.82,
+    dataFile: 'assets/yixu_jiayuan_1-data.js',
+    hasFullData: true
+  },
+  {
+    code: 'yixu_jiayuan_2',
+    name: '亦序佳苑-2',
+    marketingName: '招商序',
+    district: '开发区',
+    location: '五六环之间',
+    permitNo: '京房售证字(2025)开5号',
+    permitDate: '2025-08-18',
+    developer: '北京招晨房地产开发有限公司',
+    address: '开发区亦庄新城0202街区YZ00-0202-X24R2地块R2二类居住用地',
+    buildingCount: 6,
+    houseCount: 306,
+    signedCount: 4,
+    reservedCount: 7,
+    filedCount: 172,
+    sellThroughCount: 183,
+    fullSignedCount: 176,
+    avgPrice: 65046.34,
+    dataFile: 'assets/yixu_jiayuan_2-data.js',
+    hasFullData: true
   }
 ];
 
