@@ -6,7 +6,7 @@ window.PROJECT_DATA = {
     "permitDate": "2026-3-26",
     "developer": "",
     "address": "大兴区博兴街道博兴七路8号院",
-    "extractedAt": "2026-10-16",
+    "extractedAt": "2026-10-17",
     "sourceUrl": "http://bjjs.zjw.beijing.gov.cn/eportal/ui?pageId=320794&projectID=25164149&systemID=3&srcId=1",
     "overview": {
       "signedCount": 30,
@@ -30,12 +30,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 80883,
+          "totalPrice": 18441324,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1702",
@@ -44,12 +44,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 80683,
+          "totalPrice": 18395724,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1601",
@@ -58,12 +58,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 83083,
+          "totalPrice": 18942924,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1602",
@@ -72,12 +72,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 82883,
+          "totalPrice": 18897324,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1501",
@@ -86,12 +86,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 82883,
+          "totalPrice": 18897324,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1502",
@@ -100,12 +100,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 82683,
+          "totalPrice": 18851724,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1401",
@@ -114,12 +114,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 81283,
+          "totalPrice": 18532524,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1402",
@@ -128,12 +128,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 81083,
+          "totalPrice": 18486924,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1301",
@@ -142,12 +142,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 82483,
+          "totalPrice": 18806124,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1302",
@@ -156,12 +156,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 82283,
+          "totalPrice": 18760524,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1201",
@@ -170,12 +170,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 82283,
+          "totalPrice": 18760524,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1202",
@@ -184,12 +184,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 82083,
+          "totalPrice": 18714924,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1101",
@@ -198,12 +198,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 82083,
+          "totalPrice": 18714924,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1102",
@@ -212,12 +212,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 81883,
+          "totalPrice": 18669324,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1001",
@@ -226,12 +226,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 81883,
+          "totalPrice": 18669324,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1002",
@@ -240,12 +240,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 81683,
+          "totalPrice": 18623724,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-901",
@@ -254,12 +254,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 81683,
+          "totalPrice": 18623724,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-902",
@@ -268,12 +268,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 81483,
+          "totalPrice": 18578124,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-801",
@@ -282,12 +282,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 81483,
+          "totalPrice": 18578124,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-802",
@@ -296,12 +296,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 81283,
+          "totalPrice": 18532524,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-701",
@@ -310,12 +310,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 81283,
+          "totalPrice": 18532524,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-702",
@@ -324,12 +324,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 81083,
+          "totalPrice": 18486924,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-601",
@@ -338,12 +338,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 81083,
+          "totalPrice": 18486924,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-602",
@@ -352,12 +352,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 80883,
+          "totalPrice": 18441324,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-501",
@@ -366,12 +366,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 80883,
+          "totalPrice": 18441324,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-502",
@@ -380,12 +380,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 80683,
+          "totalPrice": 18395724,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-401",
@@ -394,12 +394,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 80483,
+          "totalPrice": 18350124,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-402",
@@ -408,12 +408,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 80283,
+          "totalPrice": 18304524,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-301",
@@ -422,12 +422,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 79483,
+          "totalPrice": 18122124,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-302",
@@ -436,12 +436,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 228,
+          "unitPrice": 79283,
+          "totalPrice": 18076524,
+          "areaBucket": "228平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-201",
@@ -450,12 +450,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "三室两厅",
+          "buildingArea": 205,
+          "unitPrice": 78483,
+          "totalPrice": 16089015,
+          "areaBucket": "205平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-202",
@@ -464,12 +464,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "三室两厅",
+          "buildingArea": 205,
+          "unitPrice": 78283,
+          "totalPrice": 16048015,
+          "areaBucket": "205平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-101",
@@ -478,12 +478,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "三室两厅",
+          "buildingArea": 198,
+          "unitPrice": 76483,
+          "totalPrice": 15143634,
+          "areaBucket": "198平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-102",
@@ -492,12 +492,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81022,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "三室两厅",
+          "buildingArea": 198,
+          "unitPrice": 76283,
+          "totalPrice": 15104034,
+          "areaBucket": "198平",
+          "source": "official"
         }
       ]
     },
@@ -515,12 +515,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79133,
+          "totalPrice": 14481339,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1702",
@@ -529,12 +529,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78933,
+          "totalPrice": 14444739,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1601",
@@ -543,12 +543,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 81333,
+          "totalPrice": 14883939,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1602",
@@ -557,12 +557,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 81133,
+          "totalPrice": 14847339,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1501",
@@ -571,12 +571,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 81133,
+          "totalPrice": 14847339,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1502",
@@ -585,12 +585,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80933,
+          "totalPrice": 14810739,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1401",
@@ -599,12 +599,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79533,
+          "totalPrice": 14554539,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1402",
@@ -613,12 +613,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79333,
+          "totalPrice": 14517939,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1301",
@@ -627,12 +627,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80733,
+          "totalPrice": 14774139,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1302",
@@ -641,12 +641,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80533,
+          "totalPrice": 14737539,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1201",
@@ -655,12 +655,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80533,
+          "totalPrice": 14737539,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1202",
@@ -669,12 +669,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80333,
+          "totalPrice": 14700939,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1101",
@@ -683,12 +683,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80333,
+          "totalPrice": 14700939,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1102",
@@ -697,12 +697,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80133,
+          "totalPrice": 14664339,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1001",
@@ -711,12 +711,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80133,
+          "totalPrice": 14664339,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1002",
@@ -725,12 +725,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79933,
+          "totalPrice": 14627739,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-901",
@@ -739,12 +739,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79933,
+          "totalPrice": 14627739,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-902",
@@ -753,12 +753,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79733,
+          "totalPrice": 14591139,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-801",
@@ -767,12 +767,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79733,
+          "totalPrice": 14591139,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-802",
@@ -781,12 +781,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79533,
+          "totalPrice": 14554539,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-701",
@@ -795,12 +795,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79533,
+          "totalPrice": 14554539,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-702",
@@ -809,12 +809,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79333,
+          "totalPrice": 14517939,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-601",
@@ -823,12 +823,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78333,
+          "totalPrice": 14334939,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-602",
@@ -837,12 +837,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78133,
+          "totalPrice": 14298339,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-501",
@@ -851,12 +851,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78133,
+          "totalPrice": 14298339,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-502",
@@ -865,12 +865,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 77933,
+          "totalPrice": 14261739,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-401",
@@ -879,12 +879,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 76733,
+          "totalPrice": 14042139,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-402",
@@ -893,12 +893,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 76533,
+          "totalPrice": 14005539,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-301",
@@ -907,12 +907,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 75833,
+          "totalPrice": 13877439,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-302",
@@ -921,12 +921,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 75633,
+          "totalPrice": 13840839,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-201",
@@ -935,12 +935,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 73833,
+          "totalPrice": 13511439,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-202",
@@ -949,12 +949,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 73633,
+          "totalPrice": 13474839,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-101",
@@ -963,12 +963,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 170,
+          "unitPrice": 72680,
+          "totalPrice": 12355600,
+          "areaBucket": "170平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-102",
@@ -977,12 +977,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78612,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 170,
+          "unitPrice": 72680,
+          "totalPrice": 12355600,
+          "areaBucket": "170平",
+          "source": "official"
         }
       ]
     },
@@ -1000,12 +1000,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81083,
+          "totalPrice": 18405841,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1702",
@@ -1014,12 +1014,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80883,
+          "totalPrice": 18360441,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1601",
@@ -1028,12 +1028,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 83283,
+          "totalPrice": 18905241,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1602",
@@ -1042,12 +1042,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 83083,
+          "totalPrice": 18859841,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1501",
@@ -1056,12 +1056,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 83083,
+          "totalPrice": 18859841,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1502",
@@ -1070,12 +1070,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82883,
+          "totalPrice": 18814441,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1401",
@@ -1084,12 +1084,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81483,
+          "totalPrice": 18496641,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1402",
@@ -1098,12 +1098,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81283,
+          "totalPrice": 18451241,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1301",
@@ -1112,12 +1112,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82683,
+          "totalPrice": 18769041,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1302",
@@ -1126,12 +1126,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82483,
+          "totalPrice": 18723641,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1201",
@@ -1140,12 +1140,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82483,
+          "totalPrice": 18723641,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1202",
@@ -1154,12 +1154,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82283,
+          "totalPrice": 18678241,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1101",
@@ -1168,12 +1168,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82283,
+          "totalPrice": 18678241,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1102",
@@ -1182,12 +1182,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82083,
+          "totalPrice": 18632841,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1001",
@@ -1196,12 +1196,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82083,
+          "totalPrice": 18632841,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1002",
@@ -1210,12 +1210,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81883,
+          "totalPrice": 18587441,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-901",
@@ -1224,12 +1224,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81883,
+          "totalPrice": 18587441,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-902",
@@ -1238,12 +1238,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81683,
+          "totalPrice": 18542041,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-801",
@@ -1252,12 +1252,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81683,
+          "totalPrice": 18542041,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-802",
@@ -1266,12 +1266,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81483,
+          "totalPrice": 18496641,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-701",
@@ -1280,12 +1280,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81483,
+          "totalPrice": 18496641,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-702",
@@ -1294,12 +1294,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81283,
+          "totalPrice": 18451241,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-601",
@@ -1308,12 +1308,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81283,
+          "totalPrice": 18451241,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-602",
@@ -1322,12 +1322,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81083,
+          "totalPrice": 18405841,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-501",
@@ -1336,12 +1336,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81083,
+          "totalPrice": 18405841,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-502",
@@ -1350,12 +1350,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80883,
+          "totalPrice": 18360441,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-401",
@@ -1364,12 +1364,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80683,
+          "totalPrice": 18315041,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-402",
@@ -1378,12 +1378,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80483,
+          "totalPrice": 18269641,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-301",
@@ -1392,12 +1392,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 79783,
+          "totalPrice": 18110741,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-302",
@@ -1406,12 +1406,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 79583,
+          "totalPrice": 18065341,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-201",
@@ -1420,12 +1420,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 78783,
+          "totalPrice": 17883741,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-202",
@@ -1434,12 +1434,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 78583,
+          "totalPrice": 17838341,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-101",
@@ -1448,12 +1448,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 216,
+          "unitPrice": 76783,
+          "totalPrice": 16585128,
+          "areaBucket": "216平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-102",
@@ -1462,12 +1462,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 81202,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 216,
+          "unitPrice": 76583,
+          "totalPrice": 16541928,
+          "areaBucket": "216平",
+          "source": "official"
         }
       ]
     },
@@ -1485,12 +1485,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79233,
+          "totalPrice": 14499639,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1702",
@@ -1499,12 +1499,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78033,
+          "totalPrice": 14280039,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1601",
@@ -1513,12 +1513,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 81433,
+          "totalPrice": 14902239,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1602",
@@ -1527,12 +1527,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80233,
+          "totalPrice": 14682639,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1501",
@@ -1555,12 +1555,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80033,
+          "totalPrice": 14646039,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1401",
@@ -1569,12 +1569,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79633,
+          "totalPrice": 14572839,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1402",
@@ -1583,12 +1583,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78433,
+          "totalPrice": 14353239,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1301",
@@ -1597,12 +1597,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80833,
+          "totalPrice": 14792439,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1302",
@@ -1611,12 +1611,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79633,
+          "totalPrice": 14572839,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1201",
@@ -1625,12 +1625,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80633,
+          "totalPrice": 14755839,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1202",
@@ -1639,12 +1639,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79433,
+          "totalPrice": 14536239,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1101",
@@ -1653,12 +1653,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80433,
+          "totalPrice": 14719239,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1102",
@@ -1709,12 +1709,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80033,
+          "totalPrice": 14646039,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-902",
@@ -1723,12 +1723,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78833,
+          "totalPrice": 14426439,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-801",
@@ -1737,12 +1737,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79833,
+          "totalPrice": 14609439,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-802",
@@ -1751,12 +1751,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78633,
+          "totalPrice": 14389839,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-701",
@@ -1779,12 +1779,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78433,
+          "totalPrice": 14353239,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-601",
@@ -1793,12 +1793,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79433,
+          "totalPrice": 14536239,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-602",
@@ -1807,12 +1807,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78233,
+          "totalPrice": 14316639,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-501",
@@ -1835,12 +1835,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78033,
+          "totalPrice": 14280039,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-401",
@@ -1849,12 +1849,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78833,
+          "totalPrice": 14426439,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-402",
@@ -1863,12 +1863,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 77633,
+          "totalPrice": 14206839,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-301",
@@ -1891,12 +1891,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 76733,
+          "totalPrice": 14042139,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-201",
@@ -1905,12 +1905,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 76933,
+          "totalPrice": 14078739,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-202",
@@ -1919,12 +1919,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 75733,
+          "totalPrice": 13859139,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-101",
@@ -1933,12 +1933,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 170,
+          "unitPrice": 74933,
+          "totalPrice": 12738610,
+          "areaBucket": "170平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-102",
@@ -1947,12 +1947,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78857,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 170,
+          "unitPrice": 73733,
+          "totalPrice": 12534610,
+          "areaBucket": "170平",
+          "source": "official"
         }
       ]
     },
@@ -1970,12 +1970,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 77633,
+          "totalPrice": 14206839,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1702",
@@ -1984,12 +1984,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 184,
+          "unitPrice": 77833,
+          "totalPrice": 14321272,
+          "areaBucket": "184平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1701",
@@ -1998,12 +1998,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 76633,
+          "totalPrice": 11035152,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1702",
@@ -2012,12 +2012,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 143,
+          "unitPrice": 76233,
+          "totalPrice": 10901319,
+          "areaBucket": "143平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1601",
@@ -2026,12 +2026,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79833,
+          "totalPrice": 14609439,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1602",
@@ -2040,12 +2040,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 184,
+          "unitPrice": 80033,
+          "totalPrice": 14726072,
+          "areaBucket": "184平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1601",
@@ -2054,12 +2054,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 78833,
+          "totalPrice": 11351952,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1602",
@@ -2068,12 +2068,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 143,
+          "unitPrice": 78433,
+          "totalPrice": 11215919,
+          "areaBucket": "143平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1501",
@@ -2082,12 +2082,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79633,
+          "totalPrice": 14572839,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1502",
@@ -2096,12 +2096,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 184,
+          "unitPrice": 79833,
+          "totalPrice": 14689272,
+          "areaBucket": "184平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1501",
@@ -2110,12 +2110,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 78633,
+          "totalPrice": 11323152,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1502",
@@ -2124,12 +2124,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 143,
+          "unitPrice": 78233,
+          "totalPrice": 11187319,
+          "areaBucket": "143平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1401",
@@ -2138,12 +2138,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78033,
+          "totalPrice": 14280039,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1402",
@@ -2166,12 +2166,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 77033,
+          "totalPrice": 11092752,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1402",
@@ -2180,12 +2180,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 143,
+          "unitPrice": 76633,
+          "totalPrice": 10958519,
+          "areaBucket": "143平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1301",
@@ -2194,12 +2194,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79233,
+          "totalPrice": 14499639,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1302",
@@ -2208,12 +2208,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 184,
+          "unitPrice": 79433,
+          "totalPrice": 14615672,
+          "areaBucket": "184平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1301",
@@ -2222,12 +2222,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 78233,
+          "totalPrice": 11265552,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1302",
@@ -2236,12 +2236,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 143,
+          "unitPrice": 77833,
+          "totalPrice": 11130119,
+          "areaBucket": "143平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1201",
@@ -2250,12 +2250,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79033,
+          "totalPrice": 14463039,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1202",
@@ -2278,12 +2278,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 78033,
+          "totalPrice": 11236752,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1202",
@@ -2292,12 +2292,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 143,
+          "unitPrice": 77633,
+          "totalPrice": 11101519,
+          "areaBucket": "143平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1101",
@@ -2306,12 +2306,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78833,
+          "totalPrice": 14426439,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1102",
@@ -2320,12 +2320,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 184,
+          "unitPrice": 79033,
+          "totalPrice": 14542072,
+          "areaBucket": "184平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1101",
@@ -2334,12 +2334,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 77833,
+          "totalPrice": 11207952,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1102",
@@ -2348,12 +2348,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 143,
+          "unitPrice": 77433,
+          "totalPrice": 11072919,
+          "areaBucket": "143平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1001",
@@ -2362,12 +2362,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78633,
+          "totalPrice": 14389839,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-1002",
@@ -2376,12 +2376,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 184,
+          "unitPrice": 78833,
+          "totalPrice": 14505272,
+          "areaBucket": "184平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1001",
@@ -2390,12 +2390,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 77633,
+          "totalPrice": 11179152,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1002",
@@ -2404,12 +2404,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 143,
+          "unitPrice": 77233,
+          "totalPrice": 11044319,
+          "areaBucket": "143平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-901",
@@ -2446,12 +2446,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 77433,
+          "totalPrice": 11150352,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-902",
@@ -2460,12 +2460,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 143,
+          "unitPrice": 77033,
+          "totalPrice": 11015719,
+          "areaBucket": "143平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-801",
@@ -2474,12 +2474,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78233,
+          "totalPrice": 14316639,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-802",
@@ -2488,12 +2488,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 184,
+          "unitPrice": 78433,
+          "totalPrice": 14431672,
+          "areaBucket": "184平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-801",
@@ -2502,12 +2502,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 77233,
+          "totalPrice": 11121552,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-802",
@@ -2516,12 +2516,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 143,
+          "unitPrice": 76833,
+          "totalPrice": 10987119,
+          "areaBucket": "143平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-701",
@@ -2530,12 +2530,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78033,
+          "totalPrice": 14280039,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-702",
@@ -2558,12 +2558,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 77033,
+          "totalPrice": 11092752,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-702",
@@ -2572,12 +2572,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 143,
+          "unitPrice": 76633,
+          "totalPrice": 10958519,
+          "areaBucket": "143平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-601",
@@ -2614,12 +2614,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 75833,
+          "totalPrice": 10919952,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-602",
@@ -2670,12 +2670,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 75633,
+          "totalPrice": 10891152,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-502",
@@ -2684,12 +2684,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 143,
+          "unitPrice": 75233,
+          "totalPrice": 10758319,
+          "areaBucket": "143平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-401",
@@ -2698,12 +2698,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 74733,
+          "totalPrice": 13676139,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-402",
@@ -2712,12 +2712,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 184,
+          "unitPrice": 77433,
+          "totalPrice": 14247672,
+          "areaBucket": "184平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-401",
@@ -2754,12 +2754,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 74133,
+          "totalPrice": 13566339,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-302",
@@ -2768,12 +2768,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 184,
+          "unitPrice": 76833,
+          "totalPrice": 14137272,
+          "areaBucket": "184平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-301",
@@ -2810,12 +2810,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 73133,
+          "totalPrice": 13383339,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-202",
@@ -2824,12 +2824,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 184,
+          "unitPrice": 75833,
+          "totalPrice": 13953272,
+          "areaBucket": "184平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-201",
@@ -2838,12 +2838,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 72980,
+          "totalPrice": 10509120,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-202",
@@ -2866,12 +2866,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 170,
+          "unitPrice": 72680,
+          "totalPrice": 12355600,
+          "areaBucket": "170平",
+          "source": "official"
         },
         {
           "houseNo": "2单元-102",
@@ -2880,12 +2880,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 77045,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 171,
+          "unitPrice": 73833,
+          "totalPrice": 12625443,
+          "areaBucket": "171平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-101",
@@ -2931,12 +2931,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 77983,
+          "totalPrice": 11229552,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1002",
@@ -2945,12 +2945,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 77783,
+          "totalPrice": 11200752,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-901",
@@ -2959,12 +2959,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 80083,
+          "totalPrice": 11531952,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-902",
@@ -2987,12 +2987,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 79783,
+          "totalPrice": 11488752,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-802",
@@ -3001,12 +3001,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 79583,
+          "totalPrice": 11459952,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-701",
@@ -3015,12 +3015,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 79483,
+          "totalPrice": 11445552,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-702",
@@ -3029,12 +3029,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 79283,
+          "totalPrice": 11416752,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-601",
@@ -3043,12 +3043,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 79183,
+          "totalPrice": 11402352,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-602",
@@ -3071,12 +3071,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 78883,
+          "totalPrice": 11359152,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-502",
@@ -3099,12 +3099,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 78283,
+          "totalPrice": 11272752,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-402",
@@ -3113,12 +3113,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 78083,
+          "totalPrice": 11243952,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-301",
@@ -3127,12 +3127,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 77683,
+          "totalPrice": 11186352,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-302",
@@ -3141,12 +3141,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 77483,
+          "totalPrice": 11157552,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-201",
@@ -3169,12 +3169,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 75483,
+          "totalPrice": 10869552,
+          "areaBucket": "144平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-101",
@@ -3197,12 +3197,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 78016,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 144,
+          "unitPrice": 73483,
+          "totalPrice": 10581552,
+          "areaBucket": "144平",
+          "source": "official"
         }
       ]
     },
@@ -3220,12 +3220,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80533,
+          "totalPrice": 18280991,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1702",
@@ -3234,12 +3234,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80333,
+          "totalPrice": 18235591,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1601",
@@ -3248,12 +3248,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82733,
+          "totalPrice": 18780391,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1602",
@@ -3262,12 +3262,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82533,
+          "totalPrice": 18734991,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1501",
@@ -3276,12 +3276,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82533,
+          "totalPrice": 18734991,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1502",
@@ -3290,12 +3290,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82333,
+          "totalPrice": 18689591,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1401",
@@ -3304,12 +3304,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80933,
+          "totalPrice": 18371791,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1402",
@@ -3318,12 +3318,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80733,
+          "totalPrice": 18326391,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1301",
@@ -3332,12 +3332,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 82133,
+          "totalPrice": 18644191,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1302",
@@ -3346,12 +3346,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81933,
+          "totalPrice": 18598791,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1201",
@@ -3360,12 +3360,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81933,
+          "totalPrice": 18598791,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1202",
@@ -3374,12 +3374,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81733,
+          "totalPrice": 18553391,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1101",
@@ -3388,12 +3388,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81733,
+          "totalPrice": 18553391,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1102",
@@ -3402,12 +3402,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81533,
+          "totalPrice": 18507991,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1001",
@@ -3416,12 +3416,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81533,
+          "totalPrice": 18507991,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1002",
@@ -3430,12 +3430,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81333,
+          "totalPrice": 18462591,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-901",
@@ -3444,12 +3444,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81333,
+          "totalPrice": 18462591,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-902",
@@ -3458,12 +3458,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81133,
+          "totalPrice": 18417191,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-801",
@@ -3472,12 +3472,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 81133,
+          "totalPrice": 18417191,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-802",
@@ -3486,12 +3486,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80933,
+          "totalPrice": 18371791,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-701",
@@ -3500,12 +3500,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80933,
+          "totalPrice": 18371791,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-702",
@@ -3514,12 +3514,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80733,
+          "totalPrice": 18326391,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-601",
@@ -3528,12 +3528,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80733,
+          "totalPrice": 18326391,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-602",
@@ -3556,12 +3556,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80533,
+          "totalPrice": 18280991,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-502",
@@ -3584,12 +3584,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 80133,
+          "totalPrice": 18190191,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-402",
@@ -3598,12 +3598,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 79933,
+          "totalPrice": 18144791,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-301",
@@ -3612,12 +3612,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 79233,
+          "totalPrice": 17985891,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-302",
@@ -3626,12 +3626,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 79033,
+          "totalPrice": 17940491,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-201",
@@ -3640,12 +3640,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 77233,
+          "totalPrice": 17531891,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-202",
@@ -3654,12 +3654,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 227,
+          "unitPrice": 77033,
+          "totalPrice": 17486491,
+          "areaBucket": "227平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-101",
@@ -3668,12 +3668,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 216,
+          "unitPrice": 74733,
+          "totalPrice": 16142328,
+          "areaBucket": "216平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-102",
@@ -3682,12 +3682,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 80508,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 216,
+          "unitPrice": 74533,
+          "totalPrice": 16099128,
+          "areaBucket": "216平",
+          "source": "official"
         }
       ]
     },
@@ -3705,12 +3705,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79283,
+          "totalPrice": 14508789,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1702",
@@ -3719,12 +3719,12 @@ window.PROJECT_DATA = {
           "floor": 17,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79083,
+          "totalPrice": 14472189,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1601",
@@ -3733,12 +3733,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 81483,
+          "totalPrice": 14911389,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1602",
@@ -3747,12 +3747,12 @@ window.PROJECT_DATA = {
           "floor": 16,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 81283,
+          "totalPrice": 14874789,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1501",
@@ -3761,12 +3761,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 81283,
+          "totalPrice": 14874789,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1502",
@@ -3775,12 +3775,12 @@ window.PROJECT_DATA = {
           "floor": 15,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 81083,
+          "totalPrice": 14838189,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1401",
@@ -3789,12 +3789,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79683,
+          "totalPrice": 14581989,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1402",
@@ -3803,12 +3803,12 @@ window.PROJECT_DATA = {
           "floor": 14,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79483,
+          "totalPrice": 14545389,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1301",
@@ -3817,12 +3817,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80883,
+          "totalPrice": 14801589,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1302",
@@ -3831,12 +3831,12 @@ window.PROJECT_DATA = {
           "floor": 13,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80683,
+          "totalPrice": 14764989,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1201",
@@ -3845,12 +3845,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80683,
+          "totalPrice": 14764989,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1202",
@@ -3859,12 +3859,12 @@ window.PROJECT_DATA = {
           "floor": 12,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80483,
+          "totalPrice": 14728389,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1101",
@@ -3873,12 +3873,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80483,
+          "totalPrice": 14728389,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1102",
@@ -3887,12 +3887,12 @@ window.PROJECT_DATA = {
           "floor": 11,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80283,
+          "totalPrice": 14691789,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1001",
@@ -3901,12 +3901,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80483,
+          "totalPrice": 14728389,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-1002",
@@ -3915,12 +3915,12 @@ window.PROJECT_DATA = {
           "floor": 10,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80083,
+          "totalPrice": 14655189,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-901",
@@ -3929,12 +3929,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 80083,
+          "totalPrice": 14655189,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-902",
@@ -3943,12 +3943,12 @@ window.PROJECT_DATA = {
           "floor": 9,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79883,
+          "totalPrice": 14618589,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-801",
@@ -3957,12 +3957,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79883,
+          "totalPrice": 14618589,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-802",
@@ -3971,12 +3971,12 @@ window.PROJECT_DATA = {
           "floor": 8,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79683,
+          "totalPrice": 14581989,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-701",
@@ -3985,12 +3985,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79683,
+          "totalPrice": 14581989,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-702",
@@ -3999,12 +3999,12 @@ window.PROJECT_DATA = {
           "floor": 7,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79483,
+          "totalPrice": 14545389,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-601",
@@ -4013,12 +4013,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79483,
+          "totalPrice": 14545389,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-602",
@@ -4027,12 +4027,12 @@ window.PROJECT_DATA = {
           "floor": 6,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79283,
+          "totalPrice": 14508789,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-501",
@@ -4041,12 +4041,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79283,
+          "totalPrice": 14508789,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-502",
@@ -4055,12 +4055,12 @@ window.PROJECT_DATA = {
           "floor": 5,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 79083,
+          "totalPrice": 14472189,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-401",
@@ -4069,12 +4069,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 77883,
+          "totalPrice": 14252589,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-402",
@@ -4083,12 +4083,12 @@ window.PROJECT_DATA = {
           "floor": 4,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 78683,
+          "totalPrice": 14398989,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-301",
@@ -4097,12 +4097,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 76883,
+          "totalPrice": 14069589,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-302",
@@ -4111,12 +4111,12 @@ window.PROJECT_DATA = {
           "floor": 3,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 77683,
+          "totalPrice": 14215989,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-201",
@@ -4125,12 +4125,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 75383,
+          "totalPrice": 13795089,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-202",
@@ -4139,12 +4139,12 @@ window.PROJECT_DATA = {
           "floor": 2,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 183,
+          "unitPrice": 76683,
+          "totalPrice": 14032989,
+          "areaBucket": "183平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-101",
@@ -4153,12 +4153,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 170,
+          "unitPrice": 73383,
+          "totalPrice": 12475110,
+          "areaBucket": "170平",
+          "source": "official"
         },
         {
           "houseNo": "1单元-102",
@@ -4167,12 +4167,12 @@ window.PROJECT_DATA = {
           "floor": 1,
           "status": "可售",
           "purpose": "住宅",
-          "layout": "",
-          "buildingArea": 0,
-          "unitPrice": 79251,
-          "totalPrice": 0,
-          "areaBucket": "",
-          "source": null
+          "layout": "四室两厅",
+          "buildingArea": 170,
+          "unitPrice": 74683,
+          "totalPrice": 12696110,
+          "areaBucket": "170平",
+          "source": "official"
         }
       ]
     }
