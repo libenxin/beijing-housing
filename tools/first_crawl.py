@@ -43,6 +43,7 @@ HEADERS = {
 STATUS_COLORS = {
     "#CCCCCC": "不可售", "#33CC00": "可售", "#FFCC99": "已预订",
     "#FF0000": "已签约", "#FFFF00": "已办理预售项目抵押", "#D2691E": "网上联机备案",
+    "#0099CC": "可售",  # 现房可售为蓝色
 }
 SOLD_STATUS = {"已签约", "已预订", "网上联机备案"}
 CN_NUM = {"一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
@@ -78,8 +79,9 @@ def fetch_retry(url, retries=8, label="", min_len=20000, require_marker=None):
     return None
 
 
-def fetch_homepage_stats(url, retries=8):
-    """③ 首页「期房签约统计」住宅行权威三值 —— 首次爬取与日度更新共用"""
+def fetch_homepage_stats(url, retries=8, system_id="2"):
+    """③ 首页「期房/现房签约统计」住宅行权威三值 —— 首次爬取与日度更新共用"""
+    markers = ["期房签约统计", "现房签约统计"] if system_id == "3" else ["期房签约统计"]
     for i in range(retries):
         try:
             html = fetch_once(url, referer=False)
@@ -87,7 +89,13 @@ def fetch_homepage_stats(url, retries=8):
                 print(f"    [首页重试 {i+1}] 内容过短({len(html)}B)")
                 time.sleep(5 + i * 2)
                 continue
-            start = html.find("期房签约统计")
+            start = -1
+            marker_used = ""
+            for mk in markers:
+                start = html.find(mk)
+                if start >= 0:
+                    marker_used = mk
+                    break
             if start < 0:
                 print(f"    [首页重试 {i+1}] 未找到签约统计")
                 time.sleep(5 + i * 2)
@@ -189,8 +197,8 @@ def parse_buildings(html):
     return buildings
 
 
-def get_building_list(pid, retries=8):
-    url = f"{BASE}/eportal/ui?pageId=411612&systemId=2&srcId=1&id={pid}&rowcount=30"
+def get_building_list(pid, system_id="2", retries=8):
+    url = f"{BASE}/eportal/ui?pageId=411612&systemId={system_id}&srcId=1&id={pid}&rowcount=30"
     for i in range(retries):
         html = fetch_retry(url, retries=1, label="楼栋列表", min_len=20000, require_marker="pageId=320833")
         if html is None:
@@ -231,6 +239,19 @@ def parse_floorplan(html):
         if "单元-" in text:
             house_no = text
             unit, room = parse_unit_room(house_no)
+        elif re.match(r"^[一二三四五六七八九十]+单元\d{3,4}$", text):
+            # 现房两单元格式：如 "二单元1701"（中文数字+无横杠）
+            m2 = re.match(r"([一二三四五六七八九十]+)单元(\d{3,4})", text)
+            unit_cn = m2.group(1)
+            room = m2.group(2)
+            if unit_cn == "十":
+                unit = 10
+            elif "十" in unit_cn:
+                a, _, b = unit_cn.partition("十")
+                unit = CN_NUM.get(a, 1) * 10 + CN_NUM.get(b, 0)
+            else:
+                unit = CN_NUM.get(unit_cn, 0)
+            house_no = f"{unit}单元-{room}"
         elif re.match(r"^\d{3,4}$", text):
             house_no = f"1单元-{text}"
             unit, room = 1, text
@@ -246,10 +267,10 @@ def parse_floorplan(html):
     return houses
 
 
-def fetch_house_detail(house_id, house_no, pid):
+def fetch_house_detail(house_id, house_no, pid, system_id="2"):
     """房源详情页：建筑面积 / 户型 / 按建筑面积拟售单价"""
     hno_enc = urllib.parse.quote(house_no, safe="")
-    url = f"{BASE}/eportal/ui?pageId=373432&houseId={house_id}&houseNo={hno_enc}&categoryId=1&salePermitId={pid}&systemId=2"
+    url = f"{BASE}/eportal/ui?pageId=373432&houseId={house_id}&houseNo={hno_enc}&categoryId=1&salePermitId={pid}&systemId={system_id}"
     html = fetch_retry(url, retries=6, label="详情", min_len=1500, require_marker="建筑面积")
     if not html:
         return None
@@ -273,16 +294,19 @@ def main():
     ap.add_argument("--district", required=True)
     ap.add_argument("--location", required=True)
     ap.add_argument("--date", default="", help="快照日期 YYYY-MM-DD，默认今天")
+    ap.add_argument("--system-id", default="2", help="期房=2, 现房=3，默认2")
+    ap.add_argument("--skip-detail", action="store_true", help="跳过可售房源详情页（面积/户型），只爬楼盘表状态")
     args = ap.parse_args()
 
     pid = args.pid
-    project_url = f"{BASE}/eportal/ui?pageId=320794&projectID={pid}&systemID=2&srcId=1"
+    system_id = args.system_id
+    project_url = f"{BASE}/eportal/ui?pageId=320794&projectID={pid}&systemID={system_id}&srcId=1"
     output = ROOT / "assets" / f"{args.code}-data.js"
     today = args.date or time.strftime("%Y-%m-%d")
 
     # 1) ③ 首页概览 + 项目信息
     print("1. 首页（类型③）...")
-    hp = fetch_homepage_stats(project_url)
+    hp = fetch_homepage_stats(project_url, system_id=system_id)
     if hp:
         hp_count, hp_area, hp_price = hp
         print(f"  [首页权威] 已签约 {hp_count} 套 / {hp_area}㎡ / {hp_price}元")
@@ -299,7 +323,7 @@ def main():
 
     # 2) 楼栋列表
     print("2. 楼栋列表...")
-    buildings = get_building_list(pid)
+    buildings = get_building_list(pid, system_id=system_id)
     if not buildings:
         print("ERROR: 楼栋列表抓取失败"); return
     print(f"  [楼栋] {len(buildings)} 栋, 总套数 {sum(b['houseCount'] for b in buildings)}")
@@ -314,7 +338,7 @@ def main():
             buildings_data.append({**b, "houses": []})
             print("    [已售完/不可售] 不生成房源")
             continue
-        url = f"{BASE}/eportal/ui?pageId=320833&systemId=2&categoryId=1&salePermitId={pid}&buildingId={b['buildingId']}"
+        url = f"{BASE}/eportal/ui?pageId=320833&systemId={system_id}&categoryId=1&salePermitId={pid}&buildingId={b['buildingId']}"
         floor_html = None
         for attempt in range(6):
             h = fetch_retry(url, retries=1, label=f"{b['name']}", min_len=20000)
@@ -344,17 +368,20 @@ def main():
             h["source"] = None
         details_to_fetch = [h for h in houses if h["status"] == "可售" and h.get("houseId")]
         print(f"    楼盘表: {len(houses)} 套 {sc}, 可售待抓面积: {len(details_to_fetch)}")
-        for j, h in enumerate(details_to_fetch):
-            detail = fetch_house_detail(h["houseId"], h.get("rawHouseNo") or h["houseNo"], pid)
-            if detail and detail["buildingArea"] > 0:
-                h["buildingArea"] = detail["buildingArea"]
-                h["unitPrice"] = detail["unitPrice"] or int(b["price"])
-                h["layout"] = detail["layout"]
-                h["totalPrice"] = int(h["buildingArea"] * h["unitPrice"])
-                h["source"] = "official"
-            time.sleep(random.uniform(0.2, 0.4))
-            if (j + 1) % 20 == 0:
-                print(f"      进度: {j+1}/{len(details_to_fetch)}")
+        if args.skip_detail:
+            print("    [skip-detail] 跳过详情页")
+        else:
+            for j, h in enumerate(details_to_fetch):
+                detail = fetch_house_detail(h["houseId"], h.get("rawHouseNo") or h["houseNo"], pid, system_id=system_id)
+                if detail and detail["buildingArea"] > 0:
+                    h["buildingArea"] = detail["buildingArea"]
+                    h["unitPrice"] = detail["unitPrice"] or int(b["price"])
+                    h["layout"] = detail["layout"]
+                    h["totalPrice"] = int(h["buildingArea"] * h["unitPrice"])
+                    h["source"] = "official"
+                time.sleep(random.uniform(0.2, 0.4))
+                if (j + 1) % 20 == 0:
+                    print(f"      进度: {j+1}/{len(details_to_fetch)}")
         buildings_data.append({**b, "houses": houses})
 
     # 4) 统计

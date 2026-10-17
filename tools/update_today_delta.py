@@ -35,6 +35,7 @@ HEADERS = {
 STATUS_COLORS = {
     "#CCCCCC": "不可售", "#33CC00": "可售", "#FFCC99": "已预订",
     "#FF0000": "已签约", "#FFFF00": "已办理预售项目抵押", "#D2691E": "网上联机备案",
+    "#0099CC": "可售",  # 现房可售为蓝色
 }
 SOLD_STATUS = {"已签约", "已预订", "网上联机备案"}
 CN_NUM = {"一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
@@ -77,6 +78,8 @@ PROJECTS = [
     {"code": "xingxun_jiayuan", "name": "星洵家园", "pid": "8106368"},
     {"code": "yixu_jiayuan_1", "name": "亦序佳苑-1", "pid": "8038353"},
     {"code": "yixu_jiayuan_2", "name": "亦序佳苑-2", "pid": "8087751"},
+    {"code": "yixi_jiayuan_1", "name": "亦玺佳苑-1", "pid": "25164149", "system_id": "3"},
+    {"code": "yixi_jiayuan_2", "name": "亦玺佳苑-2", "pid": "25164305", "system_id": "3"},
 ]
 
 
@@ -110,7 +113,8 @@ def fetch_retry(url, retries=5, label="", min_len=20000, require_marker=None):
     return None
 
 
-def fetch_homepage_stats(url, retries=8):
+def fetch_homepage_stats(url, retries=8, system_id="2"):
+    markers = ["期房签约统计", "现房签约统计"] if system_id == "3" else ["期房签约统计"]
     for i in range(retries):
         try:
             html = fetch_once(url, referer=False)
@@ -118,7 +122,11 @@ def fetch_homepage_stats(url, retries=8):
                 print(f"    [首页重试 {i+1}] 内容过短({len(html)}B)")
                 time.sleep(2 + i)
                 continue
-            start = html.find("期房签约统计")
+            start = -1
+            for mk in markers:
+                start = html.find(mk)
+                if start >= 0:
+                    break
             if start < 0:
                 print(f"    [首页重试 {i+1}] 未找到签约统计")
                 time.sleep(2 + i)
@@ -219,10 +227,10 @@ def parse_buildings(html):
     return buildings
 
 
-def get_building_list(pid, retries=5):
+def get_building_list(pid, system_id="2", retries=5):
     """抓楼栋列表并解析，解析为 0 栋视为限流页，重试"""
     from bs4 import BeautifulSoup
-    url = f"{BASE}/eportal/ui?pageId=411612&systemId=2&srcId=1&id={pid}&rowcount=30"
+    url = f"{BASE}/eportal/ui?pageId=411612&systemId={system_id}&srcId=1&id={pid}&rowcount=30"
     for i in range(retries):
         html = fetch_retry(url, retries=1, label="楼栋列表", min_len=20000, require_marker="pageId=320833")
         if html is None:
@@ -239,10 +247,11 @@ def get_building_list(pid, retries=5):
 def run_project(p):
     print(f"\n===== {p['name']} =====")
     pid = p["pid"]
-    project_url = f"{BASE}/eportal/ui?pageId=320794&projectID={pid}&systemID=2&srcId=1"
+    system_id = p.get("system_id", "2")
+    project_url = f"{BASE}/eportal/ui?pageId=320794&projectID={pid}&systemID={system_id}&srcId=1"
 
     # 1) 首页权威值（失败不中断，daily 沿用已有行并只补总量）
-    hp = fetch_homepage_stats(project_url)
+    hp = fetch_homepage_stats(project_url, system_id=system_id)
     if hp:
         hp_count, hp_area, hp_price = hp
         print(f"  [首页] 已签约 {hp_count} 套 / {hp_area}㎡ / {hp_price}元")
@@ -251,7 +260,7 @@ def run_project(p):
         print("  WARN: 首页解析失败（daily 仅更新楼栋总量，signed 值沿用已有行）")
 
     # 2) 楼栋列表
-    buildings = get_building_list(pid)
+    buildings = get_building_list(pid, system_id=system_id)
     if not buildings:
         print("  ERROR: 楼栋列表抓取失败，跳过该项目")
         return
@@ -270,7 +279,7 @@ def run_project(p):
     failed_buildings = []
     crawlable = [b for b in buildings if b["status"] not in ("已售完", "不可售")]
     for b in crawlable:
-        url = f"{BASE}/eportal/ui?pageId=320833&systemId=2&categoryId=1&salePermitId={pid}&buildingId={b['buildingId']}"
+        url = f"{BASE}/eportal/ui?pageId=320833&systemId={system_id}&categoryId=1&salePermitId={pid}&buildingId={b['buildingId']}"
         divs = None
         for attempt in range(4):
             html = fetch_retry(url, retries=1, label=f"{b['name']}", min_len=20000)
@@ -306,6 +315,19 @@ def run_project(p):
             if "单元-" in text:
                 house_no = text
                 unit, room = parse_unit_room(house_no)
+            elif re.match(r"^[一二三四五六七八九十]+单元\d{3,4}$", text):
+                # 现房两单元格式：如 "二单元1701"（中文数字+无横杠）
+                m2 = re.match(r"([一二三四五六七八九十]+)单元(\d{3,4})", text)
+                unit_cn = m2.group(1)
+                room = m2.group(2)
+                if unit_cn == "十":
+                    unit = 10
+                elif "十" in unit_cn:
+                    a, _, b = unit_cn.partition("十")
+                    unit = CN_NUM.get(a, 1) * 10 + CN_NUM.get(b, 0)
+                else:
+                    unit = CN_NUM.get(unit_cn, 0)
+                house_no = f"{unit}单元-{room}"
             elif re.match(r"^\d{3,4}$", text):
                 house_no = f"1单元-{text}"
                 unit, room = 1, text

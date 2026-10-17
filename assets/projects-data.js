@@ -527,6 +527,48 @@ window.PROJECTS_INDEX = [
     avgPrice: 65046.34,
     dataFile: 'assets/yixu_jiayuan_2-data.js',
     hasFullData: true
+  },
+  {
+    code: 'yixi_jiayuan_1',
+    name: '亦玺佳苑-1',
+    marketingName: '招商玺',
+    district: '开发区',
+    location: '五六环之间',
+    permitNo: '',
+    permitDate: '2026-03-26',
+    developer: '',
+    address: '大兴区博兴街道博兴七路8号院',
+    buildingCount: 8,
+    houseCount: 292,
+    signedCount: 30,
+    reservedCount: 0,
+    filedCount: 0,
+    sellThroughCount: 30,
+    fullSignedCount: 30,
+    avgPrice: 67595.21,
+    dataFile: 'assets/yixi_jiayuan_1-data.js',
+    hasFullData: true
+  },
+  {
+    code: 'yixi_jiayuan_2',
+    name: '亦玺佳苑-2',
+    marketingName: '招商玺',
+    district: '开发区',
+    location: '五六环之间',
+    permitNo: '',
+    permitDate: '2026-03-26',
+    developer: '',
+    address: '大兴区博兴街道博兴七路8号院',
+    buildingCount: 14,
+    houseCount: 261,
+    signedCount: 71,
+    reservedCount: 0,
+    filedCount: 0,
+    sellThroughCount: 71,
+    fullSignedCount: 71,
+    avgPrice: 69016.11,
+    dataFile: 'assets/yixi_jiayuan_2-data.js',
+    hasFullData: true
   }
 ];
 

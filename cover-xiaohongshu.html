@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1440px; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+    background: #0d1226;
+    overflow: hidden;
+    position: relative;
+  }
+  /* 背景光晕 */
+  .glow1 { position: absolute; top: -180px; right: -160px; width: 700px; height: 700px;
+    background: radial-gradient(circle, rgba(255,184,77,.28) 0%, rgba(255,184,77,0) 65%);
+    border-radius: 50%; }
+  .glow2 { position: absolute; bottom: -200px; left: -180px; width: 680px; height: 680px;
+    background: radial-gradient(circle, rgba(56,120,255,.30) 0%, rgba(56,120,255,0) 65%);
+    border-radius: 50%; }
+  .wrap { position: relative; padding: 64px 72px 0; height: 1440px; display: flex; flex-direction: column; }
+
+  .badge {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18);
+    border-radius: 999px; padding: 12px 24px; color: #c9d4ea; font-size: 22px; letter-spacing: 2px;
+  }
+  .badge .dot { width: 11px; height: 11px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 12px #4ade80; }
+
+  .title { margin-top: 36px; color: #fff; font-size: 76px; font-weight: 900; line-height: 1.18; letter-spacing: 4px; }
+  .title .accent { background: linear-gradient(90deg, #ffb84d, #ff8a3d); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .subtitle { margin-top: 16px; color: #8fa1c2; font-size: 26px; letter-spacing: 3px; }
+
+  .list { margin-top: 36px; display: flex; flex-direction: column; gap: 16px; }
+  .row {
+    display: flex; align-items: center; gap: 24px;
+    background: rgba(255,255,255,.055); border: 1px solid rgba(255,255,255,.10);
+    border-radius: 20px; padding: 22px 32px; position: relative;
+  }
+  .tag {
+    position: absolute; top: -16px; right: 24px;
+    background: linear-gradient(90deg, #ff8a3d, #ffb84d); color: #2a1700;
+    font-size: 20px; font-weight: 800; letter-spacing: 2px;
+    border-radius: 999px; padding: 7px 18px;
+  }
+  .rank {
+    width: 68px; height: 68px; flex: none; border-radius: 16px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 42px; font-weight: 900; color: #fff;
+    background: rgba(255,255,255,.12);
+  }
+  .row.first { background: linear-gradient(90deg, rgba(255,184,77,.18), rgba(255,184,77,.04)); border-color: rgba(255,184,77,.55); }
+  .row.first .rank { background: linear-gradient(135deg, #ffb84d, #ff8a3d); color: #2a1700; }
+  .info { flex: 1; min-width: 0; }
+  .name { color: #fff; font-size: 40px; font-weight: 800; letter-spacing: 1px; }
+  .meta { margin-top: 5px; color: #8fa1c2; font-size: 23px; letter-spacing: 1px; }
+  .stat { text-align: right; flex: none; }
+  .num { font-size: 56px; font-weight: 900; color: #ffb84d; line-height: 1; }
+  .row.first .num { color: #ffd9a0; }
+  .unit { font-size: 24px; color: #ffb84d; margin-left: 4px; }
+  .price { margin-top: 7px; color: #9fb3d4; font-size: 22px; }
+
+  .footer { margin-top: auto; padding-bottom: 52px; }
+  .cta {
+    display: flex; align-items: center; justify-content: space-between;
+    background: linear-gradient(90deg, #ff8a3d, #ffb84d);
+    border-radius: 22px; padding: 30px 38px;
+  }
+  .cta .left { flex: 1; min-width: 0; color: #2a1700; font-size: 34px; font-weight: 900; letter-spacing: 2px; }
+  .cta .left small { display: block; font-size: 22px; font-weight: 600; margin-top: 4px; opacity: .85; letter-spacing: 1px; white-space: nowrap; }
+  .cta .arrow { flex: none; font-size: 44px; color: #2a1700; }
+  .site { margin-top: 22px; text-align: center; color: #7e90b3; font-size: 24px; letter-spacing: 2px; }
+  .site b { color: #ffb84d; font-weight: 700; }
+</style>
+</head>
+<body>
+  <div class="glow1"></div>
+  <div class="glow2"></div>
+  <div class="wrap">
+    <div class="badge"><span class="dot"></span>每日更新 · 数据来源：北京市住建委</div>
+    <div class="title">北京新房<br>成交热榜<span class="accent"> TOP5</span></div>
+    <div class="subtitle">卖得最火的是谁？</div>
+
+    <div class="list">
+      <div class="row first">
+        <div class="tag">本周最火</div>
+        <div class="rank">1</div>
+        <div class="info"><div class="name">龙樾璟序</div><div class="meta">石景山区 · 璟序家园</div></div>
+        <div class="stat"><div><span class="num">99</span><span class="unit">套</span></div><div class="price">成交均价 5.8 万/㎡</div></div>
+      </div>
+      <div class="row">
+        <div class="rank">2</div>
+        <div class="info"><div class="name">北清润府</div><div class="meta">昌平区 · 润樾雅苑一二期</div></div>
+        <div class="stat"><div><span class="num">30</span><span class="unit">套</span></div><div class="price">成交均价 4.7 万/㎡</div></div>
+      </div>
+      <div class="row">
+        <div class="rank">3</div>
+        <div class="info"><div class="name">瑜海澐颂</div><div class="meta">海淀区 · 尚霖云颂佳苑</div></div>
+        <div class="stat"><div><span class="num">23</span><span class="unit">套</span></div><div class="price">成交均价 10.8 万/㎡</div></div>
+      </div>
+      <div class="row">
+        <div class="rank">4</div>
+        <div class="info"><div class="name">首钢·璟瑞长安</div><div class="meta">石景山区 · 璟瑞家园</div></div>
+        <div class="stat"><div><span class="num">19</span><span class="unit">套</span></div><div class="price">成交均价 5.6 万/㎡</div></div>
+      </div>
+      <div class="row">
+        <div class="rank">5</div>
+        <div class="info"><div class="name">臻澐</div><div class="meta">海淀区 · 臻云雅苑</div></div>
+        <div class="stat"><div><span class="num">11</span><span class="unit">套</span></div><div class="price">成交均价 11.8 万/㎡</div></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="cta">
+        <div class="left">看全部 21 个热盘签约明细<small>点我进主页 · 楼盘逐栋房源状态</small></div>
+        <div class="arrow">→</div>
+      </div>
+      <div class="site"><b>libenxin.github.io/beijing-housing</b></div>
+    </div>
+  </div>
+</body>
+</html>
