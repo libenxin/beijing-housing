@@ -422,8 +422,13 @@
       var p = prevMap.get(h.key);
       if (p.status !== '已签约' && p.status !== '网上联机备案') newSold.push(h);
     });
-    // 退房房源：只统计已签约/备案状态的消失；已预订撤销不计入（从未算过成交），与成交口径对称
-    var returned = prev.signedHouses.filter(function(h){ return !curMap.has(h.key) && (h.status === '已签约' || h.status === '网上联机备案'); });
+    // 退房房源：只统计已签约/备案状态的消失；已预订撤销不计入（从未算过成交），与成交口径对称。
+    // 同时要求该楼栋当天有快照记录（与爬取脚本 crawled_names 口径一致）：
+    // 楼栋整栋转"已售完"后不再写入快照，若无此过滤会整栋误判为退房
+    var curBuildings = new Set(cur.signedHouses.map(function(h){ return h.building; }));
+    var returned = prev.signedHouses.filter(function(h){
+      return !curMap.has(h.key) && (h.status === '已签约' || h.status === '网上联机备案') && curBuildings.has(h.building);
+    });
 
     // 成交套数/面积/均价：用 daily_project_snapshots 首页权威数据，按加权平均计算新增成交均价
     var prevSigned = Number(prev.overview.signedCount) || 0;
@@ -434,8 +439,12 @@
     var curAvg = Number(cur.overview.avgPrice) || 0;
 
     var signedDelta = curSigned - prevSigned;
-    var soldCount = Math.max(signedDelta, 0);          // 净新增成交套数
-    var returnedCount = Math.max(-signedDelta, 0);     // 净退房套数
+    // 套数口径：优先用房源明细（成交=已签约/备案的新增+升级；退房=已签约/备案的消失），
+    // 如"2成1退"净差为+1时能如实显示，而权威差值只会显示"1成0退"；
+    // 当日明细缺失（爬取失败未上传 house 快照）时回退首页权威差值
+    var hasDetail = prev.signedHouses.length > 0 && cur.signedHouses.length > 0;
+    var soldCount = hasDetail ? newSold.length : Math.max(signedDelta, 0);
+    var returnedCount = hasDetail ? returned.length : Math.max(-signedDelta, 0);
     var newArea = Math.max(curArea - prevArea, 0);     // 净新增成交面积
     // 新增成交均价 = (今日总额 - 昨日总额) / (今日面积 - 昨日面积)
     var newTotalPrice = curAvg * curArea - prevAvg * prevArea;
