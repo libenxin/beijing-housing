@@ -569,6 +569,27 @@ window.PROJECTS_INDEX = [
     avgPrice: 69016.11,
     dataFile: 'assets/yixi_jiayuan_2-data.js',
     hasFullData: true
+  },
+  {
+    code: 'huanjin_jiayuan',
+    name: '寰锦佳苑',
+    marketingName: '星寰时代',
+    district: '昌平区',
+    location: '五六环之间',
+    permitNo: '京房售证字(2026)87号',
+    permitDate: '2026-09-25',
+    developer: '北京未来科技城昌信置业有限公司',
+    address: '昌平区朱辛庄新区（0055地块）',
+    buildingCount: 8,
+    houseCount: 322,
+    signedCount: 254,
+    reservedCount: 8,
+    filedCount: 0,
+    sellThroughCount: 0,
+    fullSignedCount: 254,
+    avgPrice: 55725.41,
+    dataFile: 'assets/huanjin_jiayuan-data.js',
+    hasFullData: true
   }
 ];
 
