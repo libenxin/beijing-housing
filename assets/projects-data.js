@@ -573,7 +573,7 @@ window.PROJECTS_INDEX = [
   {
     code: 'huanjin_jiayuan',
     name: '寰锦佳苑',
-    marketingName: '星寰时代',
+    marketingName: '星寰时光',
     district: '昌平区',
     location: '五六环之间',
     permitNo: '京房售证字(2026)87号',
