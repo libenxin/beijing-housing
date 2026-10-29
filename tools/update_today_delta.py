@@ -81,6 +81,7 @@ PROJECTS = [
     {"code": "yixi_jiayuan_1", "name": "亦玺佳苑-1", "pid": "25164149", "system_id": "3"},
     {"code": "yixi_jiayuan_2", "name": "亦玺佳苑-2", "pid": "25164305", "system_id": "3"},
     {"code": "huanjin_jiayuan", "name": "寰锦佳苑", "pid": "8278504"},
+    {"code": "huanyi_jiayuan", "name": "寰逸佳苑", "pid": "8176578"},
 ]
 
 

@@ -590,6 +590,27 @@ window.PROJECTS_INDEX = [
     avgPrice: 55725.41,
     dataFile: 'assets/huanjin_jiayuan-data.js',
     hasFullData: true
+  },
+  {
+    code: 'huanyi_jiayuan',
+    name: '寰逸佳苑',
+    marketingName: '星寰时代',
+    district: '昌平区',
+    location: '五六环之间',
+    permitNo: '京房售证字(2026)19号',
+    permitDate: '2026-03-21',
+    developer: '北京未来科技城昌信置业有限公司',
+    address: '昌平区未来科技城',
+    buildingCount: 15,
+    houseCount: 647,
+    signedCount: 456,
+    reservedCount: 65,
+    filedCount: 0,
+    sellThroughCount: 0,
+    fullSignedCount: 456,
+    avgPrice: 51359.14,
+    dataFile: 'assets/huanyi_jiayuan-data.js',
+    hasFullData: true
   }
 ];
 
