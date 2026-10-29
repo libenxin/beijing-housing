@@ -611,6 +611,27 @@ window.PROJECTS_INDEX = [
     avgPrice: 51359.14,
     dataFile: 'assets/huanyi_jiayuan-data.js',
     hasFullData: true
+  },
+  {
+    code: 'guanjing_jiayuan',
+    name: '观璟嘉园',
+    marketingName: '建发金茂观宸',
+    district: '丰台区',
+    location: '四五环之间',
+    permitNo: '京房售证字(2025)101号',
+    permitDate: '2025-09-20',
+    developer: '北京兆兴房地产开发有限公司',
+    address: '丰台区城乡一体化槐房村和新宫村旧村改造项目NY-030（南区）-02地块',
+    buildingCount: 11,
+    houseCount: 368,
+    signedCount: 236,
+    reservedCount: 25,
+    filedCount: 0,
+    sellThroughCount: 0,
+    fullSignedCount: 236,
+    avgPrice: 74824.48,
+    dataFile: 'assets/guanjing_jiayuan-data.js',
+    hasFullData: true
   }
 ];
 
