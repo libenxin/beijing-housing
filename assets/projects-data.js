@@ -632,6 +632,27 @@ window.PROJECTS_INDEX = [
     avgPrice: 74824.48,
     dataFile: 'assets/guanjing_jiayuan-data.js',
     hasFullData: true
+  },
+  {
+    code: 'jiatang_jiayuan',
+    name: '嘉棠家苑',
+    marketingName: '嘉棠璟樾',
+    district: '丰台区',
+    location: '三四环之间',
+    permitNo: '京房售证字(2026)5号',
+    permitDate: '2026-01-28',
+    developer: '北京建兴丰汇置业有限公司',
+    address: '丰台区六里桥街道',
+    buildingCount: 8,
+    houseCount: 437,
+    signedCount: 297,
+    reservedCount: 39,
+    filedCount: 0,
+    sellThroughCount: 0,
+    fullSignedCount: 297,
+    avgPrice: 78079.12,
+    dataFile: 'assets/jiatang_jiayuan-data.js',
+    hasFullData: true
   }
 ];
 

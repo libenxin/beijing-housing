@@ -83,6 +83,7 @@ PROJECTS = [
     {"code": "huanjin_jiayuan", "name": "寰锦佳苑", "pid": "8278504"},
     {"code": "huanyi_jiayuan", "name": "寰逸佳苑", "pid": "8176578"},
     {"code": "guanjing_jiayuan", "name": "观璟嘉园", "pid": "8102295"},
+    {"code": "jiatang_jiayuan", "name": "嘉棠家苑", "pid": "8157580"},
 ]
 
 
